@@ -5,7 +5,7 @@ public class SI {
 
         double principal = 10000.0;
         double rate = 6.5;
-        double time = 2.0;
+        double time = 2.1;
 
         double weight = 72.0;
         double height = 1.8;
