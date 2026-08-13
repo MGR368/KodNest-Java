@@ -1,28 +1,30 @@
-class student{
+class StudentData {
     int roll;
     String name;
     double height;
-    void run(){
-        System.out.println("running");    
+
+    void run() {
+        System.out.println("running");
     }
-    void sleep(){
-        System.out.println("sleeping");    
+
+    void sleep() {
+        System.out.println("sleeping");
     }
 }
 
-public class main{
-    public static void main(String[] args){
-        student s1 = new student();
-        s1.roll= 12;
-        s1.name= "raja";
-        s1.height= 5.5;
+public class Main {
+    public static void main(String[] args) {
+        StudentData s1 = new StudentData();
+        s1.roll = 12;
+        s1.name = "raja";
+        s1.height = 5.5;
         System.out.println(s1.roll);
         System.out.println(s1.name);
         System.out.println(s1.height);
         s1.run();
         s1.sleep();
 
-        student s2 = new student();
+        StudentData s2 = new StudentData();
         s2.roll = 11;
         s2.name = "ram";
         s2.height = 5.6;
