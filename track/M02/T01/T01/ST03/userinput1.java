@@ -32,5 +32,6 @@ public class userinput1{
         boolean g = scan.nextBoolean();
         System.out.println("Boolean value is  " + g);
 
+        scan.close();
     }
 }

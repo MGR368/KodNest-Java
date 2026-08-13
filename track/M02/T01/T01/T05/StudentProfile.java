@@ -27,5 +27,7 @@ public class StudentProfile {
         System.out.println("Name: " + s1.name);
         System.out.println("Course: " + s1.course);
         System.out.println("Java Score: " + s1.javaScore);
+
+        scanner.close();
     }
 }

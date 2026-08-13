@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "twoSimple",
+            "request": "launch",
+            "mainClass": "twoSimple",
+            "projectName": "KodNest-Java_9c420fcf"
+        },
+        {
+            "type": "java",
             "name": "calApplication",
             "request": "launch",
             "mainClass": "calApplication",

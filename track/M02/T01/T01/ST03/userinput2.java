@@ -2,21 +2,21 @@ import java.util.Scanner;
 
 public class userinput2{
     public static void main(String[] args){
-        Scanner scan = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter your age : ");
-        int age = scan.nextInt();
+        int age = scanner.nextInt();
         System.out.println("Age is  "+age);
 
         System.out.println("Enter your height : ");
-        double height = scan.nextDouble();
+        double height = scanner.nextDouble();
         System.out.println("Height is  "+height);
-        scan.nextLine();
+        scanner.nextLine();
 
         System.out.println("Enter your name : ");
-        String fname = scan.nextLine();
+        String fname = scanner.nextLine();
         System.out.println("Name is  "+fname);
 
-        
+        scanner.close();
     }
 }
