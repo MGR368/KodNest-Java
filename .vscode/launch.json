@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "calApplication",
+            "request": "launch",
+            "mainClass": "calApplication",
+            "projectName": "KodNest-Java_9c420fcf"
+        },
+        {
+            "type": "java",
             "name": "compare",
             "request": "launch",
             "mainClass": "compare",
