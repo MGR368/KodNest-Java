@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Application",
+            "request": "launch",
+            "mainClass": "track.constructors.Application",
+            "projectName": "KodNest-Java_9c420fcf"
+        },
+        {
+            "type": "java",
+            "name": "StudentApplication",
+            "request": "launch",
+            "mainClass": "track.constructors.StudentApplication",
+            "projectName": "KodNest-Java_9c420fcf"
+        },
+        {
+            "type": "java",
             "name": "twoSimple",
             "request": "launch",
             "mainClass": "twoSimple",
