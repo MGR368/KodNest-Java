@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MobileUnlock",
+            "request": "launch",
+            "mainClass": "track.practicetrack2.MobileUnlock",
+            "projectName": "KodNest-Java_9c420fcf"
+        },
+        {
+            "type": "java",
+            "name": "Passenger",
+            "request": "launch",
+            "mainClass": "track.practicetrack.Passenger",
+            "projectName": "KodNest-Java_9c420fcf"
+        },
+        {
+            "type": "java",
             "name": "Application",
             "request": "launch",
             "mainClass": "track.constructors.Application",
