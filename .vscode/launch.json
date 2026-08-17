@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "pgm1",
+            "request": "launch",
+            "mainClass": "track.Arrays.pgm1",
+            "projectName": "KodNest-Java_9c420fcf"
+        },
+        {
+            "type": "java",
             "name": "MobileUnlock",
             "request": "launch",
             "mainClass": "track.practicetrack2.MobileUnlock",
