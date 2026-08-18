@@ -1,4 +1,5 @@
 
+
 public class checknum {
 
     public static void main(String[] args) {

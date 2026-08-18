@@ -1,3 +1,6 @@
+
+package track.M02.T01.T01.T05;
+
 import java.util.Scanner;
 
 class Student {
