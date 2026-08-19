@@ -1,4 +1,4 @@
-package track.Arrays;
+package track.Arrays.oneDimensionalArrays;
 
 public class bonusToArray {
     public static void main(String[] args) {

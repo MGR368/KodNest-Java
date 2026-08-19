@@ -1,4 +1,4 @@
-package track.Arrays;
+package track.Arrays.oneDimensionalArrays;
 
 class Freq {
     void count(int ref[] ,int key){
