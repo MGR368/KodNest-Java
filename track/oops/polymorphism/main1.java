@@ -34,9 +34,20 @@ class child2 extends parent {
 
 public class main1 {
     public static void main(String[] args) {
-        parent p = new child1(); // UPCASTING
+        child1 c1 = new child1();
+        accessMethod(c1);
+        child2 c2 = new child2();
+        accessMethod(c2);
+    }
+
+    // UPCASTING
+    static void accessMethod(parent p) {
         p.display1();
         p.display2();
-        ((child1) (p)).display3(); // DOWNCASTING
+        if (p instanceof child1) {
+            ((child1) (p)).display3(); // DOWNCASTING
+        } else {
+            ((child2) (p)).display3(); // DOWNCASTING
+        }
     }
 }

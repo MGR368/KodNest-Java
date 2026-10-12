@@ -45,8 +45,11 @@ public class main {
         accessMethod(pd);
     }
 
-    static void accessMethod(Developer dev) {
+    // UPCASTING
+    static void accessMethod(Developer dev) {   
         dev.work();
         dev.project();
-    }
+    
+}
+
 }
